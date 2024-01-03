@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.content {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.content .tips {
+  padding-top: 200rpx;
+  padding-left: 80rpx;
+  display: flex;
+  flex-direction: column;
+}
+.content .tips .title {
+  line-height: 70rpx;
+  font-weight: bold;
+  font-size: 50rpx;
+}
+.content .tips .subtitle {
+  line-height: 70rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+  color: #b0b0b1;
+}
+.content .bg {
+  position: fixed;
+  top: -250rpx;
+  right: -250rpx;
+  width: 600rpx;
+  height: 600rpx;
+  border-radius: 100%;
+  background-color: #00baef;
+  z-index: 2;
+}
+.content .bg2 {
+  position: fixed;
+  top: -150rpx;
+  right: -300rpx;
+  width: 600rpx;
+  height: 600rpx;
+  border-radius: 100%;
+  background-color: #ade8f9;
+  z-index: 1;
+}
+.content .form-box {
+  padding-top: 180rpx;
+  padding-left: 70rpx;
+  width: 610rpx;
+}
+.content .form-box .input-box {
+  margin: 40rpx 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100rpx;
+  background-color: #f5f5f5;
+  border-radius: 100rpx;
+  width: 100%;
+}
+.content .form-box .input-box input {
+  flex: 1;
+  height: 100%;
+  font-size: 30rpx;
+}
+.content .form-box .input-box .left {
+  padding: 0 30rpx;
+  width: 35rpx;
+  height: 35rpx;
+}
+.content .form-box .input-box .right {
+  padding: 0 30rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.content .form-box .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100rpx;
+  border-radius: 100rpx;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #00c6fc, #9adcf1);
+}
+.content .form-box .other {
+  display: flex;
+  justify-content: space-between;
+}
+.content .form-box .other text {
+  line-height: 80rpx;
+  font-size: 28rpx;
+}
+

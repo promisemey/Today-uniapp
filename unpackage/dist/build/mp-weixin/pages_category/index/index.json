@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "菜谱分类",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar"
+  }
+}

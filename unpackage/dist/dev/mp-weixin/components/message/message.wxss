@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.message .comment-message.data-v-dc37dbd8 {
+  display: flex;
+  margin-top: 30rpx;
+}
+.message .comment-message .avatar.data-v-dc37dbd8 {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background-color: skyblue;
+  overflow: hidden;
+}
+.message .comment-message .info.data-v-dc37dbd8 {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 10rpx;
+  font-size: 24rpx;
+  line-height: 1.5;
+  color: #aaa;
+}
+.message .comment-message .info .date.data-v-dc37dbd8 {
+  font-size: 20rpx;
+}
+.message .comment-message .info .mess.data-v-dc37dbd8 {
+  font-size: 30rpx;
+  color: #000;
+}
+

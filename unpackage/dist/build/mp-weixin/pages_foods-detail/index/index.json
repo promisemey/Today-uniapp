@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "菜谱详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "author": "/components/author/author"
+  }
+}

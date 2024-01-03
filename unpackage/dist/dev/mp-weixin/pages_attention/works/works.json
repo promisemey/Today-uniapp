@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+    "author": "/components/author/author"
+  }
+}

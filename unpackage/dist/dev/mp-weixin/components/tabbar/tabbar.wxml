@@ -1,0 +1,1 @@
+<view class="tabbar"><tui-icon style="display:none;" vue-id="d01cb1fc-1" name="about" bind:__l="__l"></tui-icon><tui-tabbar vue-id="d01cb1fc-2" current="{{switchTab}}" backgroundColor="#fff" tabBar="{{tabBar}}" color="#777" selectedColor="#3b55f3" iconSize="40" data-event-opts="{{[['^click',[['tabbarSwitch']]]]}}" bind:click="__e" bind:__l="__l"></tui-tabbar></view>

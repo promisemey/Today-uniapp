@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.txt {
+  margin-bottom: 10rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  padding: 5px;
+}
+

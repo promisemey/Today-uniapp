@@ -1,0 +1,2 @@
+.editUser .van-field__label--disabled,
+.editUser .van-field__label{color:#000!important}.editUser .ava{display:flex;align-items:center;justify-content:center;flex-direction:column;margin:60rpx 0}.editUser .ava .avatar{width:150rpx;height:150rpx;border-radius:50%;background-color:#87ceeb;margin-bottom:20rpx}.editUser .ava .txt{font-size:32rpx}.editUser .subbtn{padding:32rpx}

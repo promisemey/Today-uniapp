@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.works {
+  padding: 0 30rpx 30rpx;
+}
+.works .uni-card {
+  margin: 20rpx 0 !important;
+}
+.works .works-ava {
+  margin: 20rpx 0;
+}
+.works .context {
+  width: 100%;
+  overflow: hidden;
+  line-height: 1.5;
+}
+.works .context .title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  font-size: 30rpx;
+}
+.works .context .details {
+  font-size: 26rpx;
+}
+.works .img {
+  margin: 15rpx 0;
+  border-radius: 20rpx;
+  overflow: hidden;
+  background-color: antiquewhite;
+  width: 600rpx;
+  height: 600rpx;
+}
+.works .time {
+  margin: 15rpx 0;
+  font-size: 24rpx;
+  color: #999;
+}
+.works .util {
+  display: flex;
+  align-items: center;
+}
+.works .util .up,
+.works .util .comment {
+  display: flex;
+  align-items: center;
+  margin-right: 20rpx;
+}
+

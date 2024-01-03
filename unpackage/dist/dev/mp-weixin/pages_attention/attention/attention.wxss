@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.list {
+  padding: 30rpx;
+}
+.list .author {
+  margin-bottom: 30rpx;
+}
+

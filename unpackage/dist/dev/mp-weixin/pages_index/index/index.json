@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "今天吃什么",
+  "onReachBottomDistance": 10,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "m-loading": "/components/m-loading/m-loading",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "tabbar": "/components/tabbar/tabbar"
+  }
+}

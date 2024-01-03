@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.del-icon.data-v-1c2c3de4 {
+  font-size: 40rpx;
+}
+.author.data-v-1c2c3de4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author .ava.data-v-1c2c3de4 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.author .author-info.data-v-1c2c3de4 {
+  flex: 1;
+  margin-left: 20rpx;
+}
+.author .author-info .uname.data-v-1c2c3de4 {
+  font-size: 30rpx;
+  line-height: 1.3;
+}
+.author .author-info .other-info.data-v-1c2c3de4 {
+  font-size: 26rpx;
+  color: #aaa;
+}
+.author .author-info .other-info .sex.data-v-1c2c3de4 {
+  margin-right: 20rpx;
+}
+.author .van-tag.data-v-1c2c3de4 {
+  width: 100rpx;
+  padding: 10rpx 15rpx;
+  font-size: 26rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #666ee8;
+  border-radius: 50rpx;
+}
+.author .van-tag.active.data-v-1c2c3de4 {
+  background-color: #F56C6C;
+}
+

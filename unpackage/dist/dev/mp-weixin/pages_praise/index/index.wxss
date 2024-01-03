@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.getpraise {
+  width: 100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.getpraise .getpraise-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.getpraise .getpraise-list .avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background-color: pink;
+}
+.getpraise .getpraise-list .cell-info {
+  flex: 1;
+}
+.getpraise .getpraise-list .cell-info .van-cell__value {
+  display: flex;
+  justify-content: flex-end;
+}
+.getpraise .getpraise-list .cell-info .food-img {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  background-color: pink;
+}
+.getpraise .end {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50rpx;
+  color: #ccc;
+  font-size: 24rpx;
+}
+.getpraise .end .line {
+  width: 25%;
+  height: 1rpx;
+  background-color: #ccc;
+}
+

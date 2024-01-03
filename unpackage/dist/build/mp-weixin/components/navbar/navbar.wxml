@@ -1,0 +1,1 @@
+<view class="navbar"><van-nav-bar vue-id="982fa97c-1" title="{{title}}" left-text="返回" fixed="{{true}}" placeholder="{{true}}" left-arrow="{{true}}" bind:click-right="onClickRight" data-event-opts="{{[['^clickLeft',[['onClickLeft']]]]}}" data-com-type="wx" bind:clickLeft="__e" bind:__l="__l"></van-nav-bar></view>

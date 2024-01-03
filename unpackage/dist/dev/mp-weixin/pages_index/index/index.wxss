@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page.data-v-1813a23f {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.swiper.data-v-1813a23f {
+  height: 800rpx;
+}
+.container.data-v-1813a23f {
+  padding: 0 30rpx;
+  overflow: scroll;
+}
+.container.data-v-1813a23f .uni-load-more__text {
+  font-size: 24rpx !important;
+}
+.container .search.data-v-1813a23f {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  margin: 20rpx 0;
+}
+.container .search.data-v-1813a23f .van-search {
+  width: 700rpx !important;
+}
+.container .search .search-bar.data-v-1813a23f {
+  flex: 1;
+}
+.container .search .search-bar .uni-searchbar.data-v-1813a23f {
+  padding: 0;
+}
+.container .search .search-bar .uni-searchbar .uni-searchbar__box.data-v-1813a23f {
+  height: 66rpx;
+}
+.container .search .bell.data-v-1813a23f {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-left: 10rpx;
+}
+.container .image-box.data-v-1813a23f {
+  position: relative;
+  height: 800rpx;
+  width: 610rpx;
+  border-radius: 24rpx;
+  overflow: hidden;
+}
+.container .image-box .title.data-v-1813a23f,
+.container .image-box .avatar.data-v-1813a23f {
+  position: absolute;
+  left: 30rpx;
+  z-index: 99;
+}
+.container .image-box .avatar.data-v-1813a23f {
+  bottom: 30rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.container .image-box .title.data-v-1813a23f {
+  top: 30rpx;
+  color: #fff;
+  font-weight: 700;
+  font-size: 46rpx;
+}
+.container .image-box .title .effect.data-v-1813a23f {
+  line-height: 1.5;
+  font-size: 56rpx;
+}
+.container .model-title.data-v-1813a23f {
+  padding: 30rpx 0 20rpx;
+  font-size: 40rpx;
+}
+.container .scroll-view_H.data-v-1813a23f {
+  white-space: nowrap;
+  width: 100%;
+}
+.container .scroll-view_H.data-v-1813a23f .uni-scroll-view-content {
+  display: flex;
+}
+.container .scroll-view_H .scroll-view-item_H.data-v-1813a23f {
+  width: 100% !important;
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 290rpx;
+  height: 470rpx;
+  border-radius: 20rpx 20rpx 0 0;
+}
+.container .scroll-view_H .scroll-view-item_H .foods-ava.data-v-1813a23f {
+  height: 400rpx;
+  border-radius: 20rpx;
+}
+.container .scroll-view_H .scroll-view-item_H .foods-text.data-v-1813a23f {
+  font-size: 34rpx;
+  font-weight: 700;
+}
+.container .scroll-view_H .scroll-view-item_H.data-v-1813a23f:not(:last-of-type) {
+  margin-right: 20rpx;
+}
+.container .more-recommend .waterful.data-v-1813a23f {
+  display: flex;
+  justify-content: space-between;
+}
+.container .more-recommend .waterful .judgeHeight.data-v-1813a23f {
+  height: 0;
+}
+.container .more-recommend .waterful .list-left.data-v-1813a23f,
+.container .more-recommend .waterful .list-right.data-v-1813a23f {
+  width: 50%;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.container .more-recommend .waterful .list-left .foods.data-v-1813a23f:not(:last-of-type),
+.container .more-recommend .waterful .list-right .foods.data-v-1813a23f:not(:last-of-type) {
+  margin-bottom: 30rpx;
+}
+.container .more-recommend .waterful .list-left .recomend-img.data-v-1813a23f,
+.container .more-recommend .waterful .list-right .recomend-img.data-v-1813a23f {
+  border-radius: 20rpx !important;
+  overflow: hidden;
+  font-size: 0;
+}
+.container .more-recommend .waterful .list-left .recomend-text.data-v-1813a23f,
+.container .more-recommend .waterful .list-right .recomend-text.data-v-1813a23f {
+  padding: 20rpx 0;
+  font-size: 30rpx;
+}
+.container .more-recommend .waterful .list-left .recomend-info.data-v-1813a23f,
+.container .more-recommend .waterful .list-right .recomend-info.data-v-1813a23f {
+  display: flex;
+  align-items: center;
+  color: #9c9eaf;
+  font-size: 24rpx;
+}
+.container .more-recommend .waterful .list-left .recomend-info .info-ava.data-v-1813a23f,
+.container .more-recommend .waterful .list-right .recomend-info .info-ava.data-v-1813a23f {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+  overflow: hidden;
+}
+.container .more-recommend .waterful .list-left.data-v-1813a23f {
+  margin-right: 20rpx;
+}
+.container .uni-load-more.data-v-1813a23f {
+  padding: 40rpx 0 80rpx;
+}
+

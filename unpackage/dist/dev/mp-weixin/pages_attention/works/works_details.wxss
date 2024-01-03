@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.works-details {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.works-details .sticky {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 120rpx !important;
+  z-index: 10;
+  background-color: pink;
+}
+.works-details .image {
+  width: 100vw;
+  height: 800rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: fixed;
+}
+.works-details .details-box {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: scroll;
+}
+.works-details .details {
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff !important;
+  top: 800rpx;
+  height: 280rpx;
+}
+.works-details .details .time {
+  font-size: 24rpx;
+  color: #999;
+}
+.works-details .details .context {
+  width: 100%;
+  overflow: hidden;
+  line-height: 1.5;
+  box-sizing: border-box;
+  padding: 20rpx 30rpx;
+}
+.works-details .details .context .title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  font-size: 30rpx;
+}
+.works-details .details .context .text {
+  font-size: 26rpx;
+}
+.works-details .main {
+  position: absolute;
+  width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #fff;
+  top: 1050rpx;
+}
+.works-details .message-box,
+.works-details .content,
+.works-details .time {
+  padding: 20rpx 30rpx;
+}
+.works-details .message-box::after {
+  content: '';
+  display: block;
+  height: 130rpx;
+}
+.works-details .send {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 120rpx;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  z-index: 999;
+}
+.works-details .send .input-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f8fa;
+  height: 60rpx;
+  border-radius: 30rpx;
+  margin: 0 20rpx;
+  padding: 0 16rpx;
+  box-sizing: border-box;
+}
+.works-details .send .input-box .input {
+  position: relative;
+  height: 50rpx;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 40rpx 0;
+  padding: 0;
+  color: #323233;
+  line-height: inherit;
+  text-align: left;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+}
+.works-details .send .util {
+  width: 200rpx;
+  display: flex;
+  align-items: center;
+}
+.works-details .send .util .up,
+.works-details .send .util .comment {
+  display: flex;
+  align-items: center;
+  margin-right: 20rpx;
+}
+

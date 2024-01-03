@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "收藏",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "tabbar": "/components/tabbar/tabbar"
+  }
+}

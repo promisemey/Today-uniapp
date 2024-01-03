@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.my.data-v-e6ad754a {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 30rpx 60rpx;
+}
+.my .info-panel.data-v-e6ad754a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70rpx;
+  margin-bottom: 40rpx;
+  width: 100%;
+  height: 300rpx;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.my .info-panel .avatar.data-v-e6ad754a {
+  position: absolute;
+  left: 30rpx;
+  top: -70rpx;
+  width: 200rpx;
+  height: 200rpx;
+  padding: 10rpx;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.my .info-panel .avatar .img.data-v-e6ad754a {
+  background-color: pink;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.my .info-panel .user-panel.data-v-e6ad754a {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 30rpx 30rpx 0 250rpx;
+}
+.my .info-panel .user-panel.data-v-e6ad754a .van-icon {
+  font-size: 44rpx;
+  font-weight: 700;
+  color: #333;
+}
+.my .info-panel .user-panel .info .uname.data-v-e6ad754a {
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 1;
+}
+.my .info-panel .user-panel .info .other-info.data-v-e6ad754a {
+  font-size: 26rpx;
+  margin-top: 16rpx;
+  color: #aaa;
+}
+.my .info-panel .user-panel .info .other-info .sex.data-v-e6ad754a {
+  margin-right: 20rpx;
+}
+.my .info-panel .box.data-v-e6ad754a {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30rpx;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.my .info-panel .box .attention.data-v-e6ad754a:not(:nth-of-type(2)) {
+  box-sizing: border-box;
+  flex-basis: 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-size: 30rpx;
+  overflow: hidden;
+}
+.my .info-panel .box .attention:not(:nth-of-type(2)) .num.data-v-e6ad754a {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.my .info-panel .box .attention:not(:nth-of-type(2)) .txt.data-v-e6ad754a {
+  color: #aaa;
+  font-size: 26rpx;
+}
+.my .info-panel .box .attention.data-v-e6ad754a:nth-of-type(2) {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rpx;
+  max-width: 33%;
+  align-items: center;
+  text-align: center;
+  font-size: 30rpx;
+}
+.my .info-panel .box .attention.data-v-e6ad754a:nth-of-type(2)::after, .my .info-panel .box .attention.data-v-e6ad754a:nth-of-type(2)::before {
+  content: '';
+  width: 2rpx;
+  height: 40rpx;
+  background-color: #ccc;
+}
+.my .info-panel .box .attention:nth-of-type(2) .special.data-v-e6ad754a {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+}
+.my .info-panel .box .attention:nth-of-type(2) .special .num.data-v-e6ad754a {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.my .info-panel .box .attention:nth-of-type(2) .special .txt.data-v-e6ad754a {
+  color: #aaa;
+  font-size: 26rpx;
+}
+.my .tabs .content.data-v-e6ad754a {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30rpx;
+}
+.my .tabs .content .works.data-v-e6ad754a {
+  width: 224rpx;
+  height: 220rpx;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+  background-color: aliceblue;
+}
+.my .tabs .content.data-v-e6ad754a::after {
+  content: '';
+  width: 224rpx;
+}
+.my .tabs .content .food-menu.data-v-e6ad754a {
+  width: 338rpx;
+  height: 450rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.my .tabs .content .food-menu .img.data-v-e6ad754a {
+  width: 100%;
+  height: 400rpx;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.my .tabs .content .food-menu .title.data-v-e6ad754a {
+  width: 100%;
+  font-size: 32rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.my .tabs .end.data-v-e6ad754a {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50rpx;
+  color: #ccc;
+  font-size: 24rpx;
+}
+.my .tabs .end .line.data-v-e6ad754a {
+  width: 25%;
+  height: 1rpx;
+  background-color: #ccc;
+}
+.van-nav-bar_title.data-v-e6ad754a {
+  z-index: 10;
+  position: absolute;
+}
+
